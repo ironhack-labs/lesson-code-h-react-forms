@@ -5,7 +5,6 @@ import MovieCard from "./MovieCard";
 import AddMovie from "./AddMovie";
 
 function MovieList() {
-  const [moviesData, setMoviesData] = useState(moviesDataJSON);
   const [movies, setMovies] = useState(moviesDataJSON);
 
   return (
