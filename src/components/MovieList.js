@@ -6,7 +6,6 @@ import AddMovie from "./AddMovie";
 import FilterMovies from "./FilterMovies";
 
 function MovieList() {
-  const [moviesData, setMoviesData] = useState(moviesDataJSON);
   const [movies, setMovies] = useState(moviesDataJSON);
 
   return (
